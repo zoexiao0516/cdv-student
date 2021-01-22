@@ -2,8 +2,8 @@
 
 In this exercise I encountered
 - problems
-and learned
-- things
+and
+- learned things
 ...
 
 See my work [here](website).
