@@ -1,0 +1,31 @@
+body{
+  background-color: black;
+}
+
+p {
+	color: gray;
+}
+
+#input-area{
+  width: 300px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+#squares{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+
+#squares div{
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  background-color: lightgray;
+  transition: all 1s ease-in-out;
+}
+
+#squares div:hover {
+  background-color: black;
+}
