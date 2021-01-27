@@ -7,3 +7,11 @@ I was stuck by how to clear all the squares created, and it turned out the probl
 
 #### Keywords:
 `getElementById`, `createElement`, `appendChild`, `flexbox`, `for-loop`, `addEventListener`, `function`, `hover`
+
+#### Strategy:
+1. link css and js
+1. create box manually (html & css)
+1. recreate box with js (createElement, className, appendChild)
+1. create box on button click (function, getElementById, addEventListener)
+1. create three boxes on button click (for loop)
+1. read value of input (getElementById, value)
