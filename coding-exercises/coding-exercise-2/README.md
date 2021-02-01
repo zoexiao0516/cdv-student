@@ -1,10 +1,12 @@
 # 👾 CDV Coding Exercise 2 (Form Data, Vanilla JS)
 
-## ～ Survey Results: Essential Qualities for a Romantic Partner
+## ～ Simple Visualization of Survey Results
 
-#### See my work [here](https://zoexiao0516.github.io/cdv-student/coding-exercises/coding-exercise-2/index.html)
+#### Survey Title: Essential Qualities for a Romantic Partner
 
 #### If you're curious about the survey, take it [here](https://forms.gle/vGrf2pay4MUjEL6o6)
+
+#### See my work [here](https://zoexiao0516.github.io/cdv-student/coding-exercises/coding-exercise-2/index.html)
 
 #### Difficulty:
 
