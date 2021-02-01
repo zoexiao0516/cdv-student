@@ -1,3 +1,6 @@
+// link to the survey https://forms.gle/vGrf2pay4MUjEL6o6
+
+
 let data = [
     {
         "timestamp": "2021-01-28T03:34:37.039Z",
@@ -91,6 +94,7 @@ let data = [
     }
 ]
 
+
 // the function dates a data
 // arrayn as an argument
 function averageData(data){
@@ -144,4 +148,75 @@ function averageData(data){
   }
   // return everything when it is done
   return newData;
+}
+
+
+// here we use the function to transform the data
+let transformedData = averageData(data);
+
+
+// log things to the console as you go to make sure things
+// are behaving as intended. I see the data looks good
+console.log(transformedData);
+
+
+// up here, we also select the container (div) on the page
+// into which we insert the bars we create in the loop below
+let container = document.getElementById("container");
+
+
+// Loop over the data, once for each datapoint.
+// in our case the loop loops 5 times because we have
+// 5 foods in out dataset.
+for(let i = 0; i < transformedData.length; i++){
+  // get the item we deal with at this iteration
+  let datapoint = transformedData[i];
+  // datapoint looks like this in the first iteration:
+  // {
+  //   average: 2.066666666666667
+  //   name: "watermelonWithFetaCheese"
+  //   numMeasurements: 15
+  // }
+
+  // get the name of the current
+  //  item by "digging" into the datapoint object
+  // and the average liking value
+  let food = datapoint.name;
+  let average = datapoint.average;
+
+  // in each iteration (once for each food)
+  // we create a div
+  let bar = document.createElement("div");
+
+  // next, we assign the className to the div
+  // that will make sure basic bar styling (defined in css/style.css)
+  // is applied to it (like height, color, margin)
+  bar.className = "bar";
+  // because the width is different for each bar
+  // we define it right here in javascript using the
+  // average value of each data point that we iterate over
+  // we stored average value in the variable "average" on line 178
+  bar.style.width = (average * 20) + "px";
+
+  // labels
+  // so far we have a div that has a width that corresponds
+  // to the data value. next we create a p-tag the
+  // text (innerHTML) of which is the name of the food currently
+  // iterated over
+  // we stored the name in the variable "food" on line 184
+  // create the tag
+  let barname = document.createElement("p");
+  // change the text
+  barname.innerHTML = food;
+  // now here we insert the p tag into the div tag we created above
+  bar.appendChild(barname);
+  // at this point the element we have created using JavaScript only
+  // looks like:
+  // <div class="bar"><p>watermelonWithFetaCheese</p></div>
+  // (that is for the first datapoint (watermelonWithFetaCheese) that we iterate over)
+
+  // that whole element (the div containing the p tag)
+  // we append to the body after all
+  // bring it from "JavaScript world" to "HTML world"
+  container.appendChild(bar);
 }
