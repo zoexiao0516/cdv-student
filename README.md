@@ -6,8 +6,8 @@ Hi! I am Zoe Yajie Xiao and in this repository I will develop my work for the [C
 
 Among other things, I will link to Coding Exercises and Projects:
 
-- [coding exercise (placeholder)](coding-exercises/placeholder)
-- [cool project (placeholder)](projects/placeholder)
+- [coding foundation](coding-exercises/coding-foundation)
+- [coding exercise 2 (Form Data, Vanilla JS)](coding-exercises/coding-exercise-2)
 - ...
 
 
