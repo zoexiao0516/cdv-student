@@ -1,4 +1,3 @@
-
 let data = [
     {
         "timestamp": "2021-01-28T03:34:37.039Z",
@@ -148,70 +147,34 @@ function averageData(data){
   return newData;
 }
 
+
 // here we use the function to transform the data
 let transformedData = averageData(data);
 
 
 // log things to the console as you go to make sure things
 // are behaving as intended. I see the data looks good
-console.log(transformedData);
+// console.log(transformedData);
 
-
-// up here, we also select the bars (ul) on the page
-// into which we insert the bars (li) we create in the loop below
-// <li>
-//   <div class="bar" data-value="4.7"></div>
-//   <span>loyalty and understanding</span>
-// </li>
-let bars = document.getElementsByClassName("bars");
 
 // Loop over the data, once for each datapoint.
 // in my case the loop loops 6 times because we have
 // 6 data objects in my dataset.
-for(let i = 0; i < transformedData.length; i++){
+for (let i = 0; i < transformedData.length; i++){
   // get the item we deal with at this iteration
   let datapoint = transformedData[i];
 
   // get the name of the current
   // item by "digging" into the datapoint object
   // and the average liking value
-  let data-object = datapoint.name;
+  let object = datapoint.name;
   let average = datapoint.average;
+  console.log(object, average);
 
-  // in each iteration (once for each data object)
-  // we create a div
-  let bar = document.createElement("div");
+  let bar = document.getElementById("bar"+i);
 
-  // next, we assign the className to the div
-  // that will make sure basic bar styling (defined in css/style.css)
-  // is applied to it (like height, color, margin)
-  bar.className = "bar";
-  bar.data-value = average;
-  // because the height is different for each bar
-  // we define it right here in javascript using the
-  // average value of each data point that we iterate over
-  // we stored average value in the variable "average" above
-  bar.style.height = (average * 100) + "px";
-
-  // labels
-  // so far we have a div that has a width that corresponds
-  // to the data value. next we create a p-tag the
-  // text (innerHTML) of which is the name of the food currently
-  // iterated over
-  // we stored the name in the variable "food" on line 184
-  // create the tag
-  let barname = document.createElement("span");
-  // change the text
-  barname.innerHTML = <span>dataobject</span>;
-  // now here we insert the p tag into the div tag we created above
-  bar.appendChild(barname);
-  // at this point the element we have created using JavaScript only
-  // looks like:
-  // <div class="bar"><p>watermelonWithFetaCheese</p></div>
-  // (that is for the first datapoint (watermelonWithFetaCheese) that we iterate over)
-
-  // that whole element (the div containing the p tag)
-  // we append to the body after all
-  // bring it from "JavaScript world" to "HTML world"
-  bars.appendChild(bar);
+  console.log("bar"+i);
+  console.log(bar);
+  bar.setAttribute("data-value", average);
+  bar.setAttribute("data-percentage", average * 20);
 }
