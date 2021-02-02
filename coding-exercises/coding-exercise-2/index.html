@@ -4,24 +4,52 @@
 <head>
         <meta charset="utf-8">
         <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" charset="utf-8"></script>
         <title>Form Data</title>
 </head>
 
 <body>
-        <h2>Essential Qualities for a Romantic Partner</h2>
+        <h1>💖 Essential Qualities for a Romantic Partner 💝</h1>
 
-        <div id="container">
-          <div class="bar">
+        <div class="chart">
+          <!-- <div class="bar">
             <p>test</p>
           </div>
 
           <div class="bar">
             <p>test</p>
-          </div>
+          </div> -->
+          <ul class="numbers">
+            <li><span>⭐️⭐️⭐️⭐️⭐️</span></li>
+            <li><span>⭐️⭐️⭐️⭐️</span></li>
+            <li><span>⭐️⭐️⭐️</span></li>
+            <li><span>⭐️⭐️</span></li>
+            <li><span>⭐️</span></li>
+          </ul>
+
+          <ul class="bars">
+            <li><div class="bar" data-value="4.7" data-percentage="94"></div><span>loyalty and understanding</span></li>
+            <li><div class="bar" data-value="4.3" data-percentage="86"></div><span>an exciting personality</span></li>
+            <li><div class="bar" data-value="4.2" data-percentage="84"></div><span>emotional stability</span></li>
+            <li><div class="bar" data-value="3" data-percentage="60"></div><span>similarities</span></li>
+            <li><div class="bar" data-value="3.6" data-percentage="72"></div><span>physical attractivenes</span></li>
+            <li><div class="bar" data-value="3.5" data-percentage="70"></div><span>income/earning potential</span></li>
+          </ul>
 
         </div>
+        <!-- End of chart -->
 
-<script type="text/javascript" src="script.js"></script>
+        <!-- <script type="text/javascript" src="script.js"></script> -->
+        <script type="text/javascript">
+        $(function(){
+          $('.bars li .bar').each(function(key, bar){
+            var percentage = $(this).data('percentage');
+            $(this).animate({
+              'height': percentage + '%'
+            },1000);
+          });
+        });
+        </script>
 
 </body>
 
