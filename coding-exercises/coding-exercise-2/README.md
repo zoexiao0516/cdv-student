@@ -1,6 +1,6 @@
-# 📶 CDV Coding Exercise 2 (Form Data, Vanilla JS)
+# 💝 CDV Coding Exercise 2 (Form Data, Vanilla JS)
 
-## ～ Simple Visualization of Survey Results
+## ⭐️ Simple Visualization of Survey Results ⭐️
 
 #### Survey Title: Essential Qualities for a Romantic Partner
 
@@ -9,7 +9,7 @@
 #### See my work [here](https://zoexiao0516.github.io/cdv-student/coding-exercises/coding-exercise-2/index.html)
 
 #### Difficulty:
-1. 
+1.
 
 #### I learned:
 1. How to collect data using google sheet and covert them to JSON
