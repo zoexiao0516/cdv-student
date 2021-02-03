@@ -13,6 +13,6 @@
 1. Bar chart animation
 
 #### I learned:
-1. How to collect data using google sheet and covert them to JSON
+1. How to collect data using Google Form and covert them to JSON
 1. First time use the inline container `<span>` tag
 1. Use jquery library to simplify the animate() function
