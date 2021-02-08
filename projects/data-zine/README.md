@@ -24,4 +24,4 @@
 - Week 4: Collect Data (Only if needed), Resolve coding questions
 - Week 5: Final Coding
 - Week 6: Presentation
-*Due Monday, Mar 8:*
+*Due Monday, Mar 8*
