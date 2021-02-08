@@ -2,10 +2,17 @@
 
 #### Inspirations
 [Dear Data](https://docs.google.com/spreadsheets/d/1PTTTbewj2zsqgztBhNZKB2ipunpI7jiok2tmm_kfhXE/edit#gid=0) by Giorgia Lupi and Stefanie Posavec
+[Polar Clock](http://bl.ocks.org/mbostock/1096355)
+[Pie Multiples with Nesting](http://bl.ocks.org/mbostock/1305337)
+
 
 #### Proposal
 - What data did you choose to collect?
-- How did you collect it, was was the routine?
+  Objects in the shape of circle that I touch/use every day, as well as their diameter, color, usability, how long have I used it.
+
+- How did you collect it, what was the routine?
+  I take a picture every time I see such objects, and at night at a specific time, I would input the objects as well as their attributes one by one in Google Form.
+
 - Why did you choose to visualize the data in this way?
 - What can be seen in the visualization? Does it reveal something you didn't expect?
 - Did you make crucial compromises? Which ones?
