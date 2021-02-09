@@ -1,0 +1,50 @@
+[
+    {
+        "timestamp": "2021-02-09T08:06:41.259Z",
+        "color": "orange",
+        "diameter": "5-10cm",
+        "howLongHaveIUsedIt": 1,
+        "whatIsItUsedFor": "Something edible (食）",
+        "note": "orange"
+    },
+    {
+        "timestamp": "2021-02-09T08:07:26.179Z",
+        "color": "white",
+        "diameter": "10-15cm",
+        "howLongHaveIUsedIt": 10,
+        "whatIsItUsedFor": "Something in residence（住）",
+        "note": "a plate"
+    },
+    {
+        "timestamp": "2021-02-09T08:09:50.431Z",
+        "color": "yellow",
+        "diameter": "25-30cm",
+        "howLongHaveIUsedIt": 8,
+        "whatIsItUsedFor": "Something in residence（住）",
+        "note": "basin"
+    },
+    {
+        "timestamp": "2021-02-09T08:12:49.227Z",
+        "color": "silver",
+        "diameter": "Smaller than 5cm",
+        "howLongHaveIUsedIt": 2,
+        "whatIsItUsedFor": "Something to have when out（行）",
+        "note": "a coin （纪念币）"
+    },
+    {
+        "timestamp": "2021-02-09T08:23:17.231Z",
+        "color": "bronze",
+        "diameter": "Smaller than 5cm",
+        "howLongHaveIUsedIt": 3,
+        "whatIsItUsedFor": "Something wearable （衣）",
+        "note": "a button "
+    },
+    {
+        "timestamp": "2021-02-09T08:24:21.206Z",
+        "color": "blue",
+        "diameter": "Greater than 30cm",
+        "howLongHaveIUsedIt": 3,
+        "whatIsItUsedFor": "Something in residence（住）",
+        "note": "an umbrella"
+    }
+]
