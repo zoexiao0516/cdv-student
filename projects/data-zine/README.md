@@ -18,6 +18,10 @@
 - Did you make crucial compromises? Which ones?
 - If this project had a larger scaler and wasn't designed for print, how would you imagine it to be?
 
+#### Difficulty
+1. Change the attributes of arc generator for each datapoint
+1. Cluster the datapoints into different groups according to the property "whatIsItUsedFor"
+
 #### Timeline
 - Week 3: Collect Data, First coding draft
 - Spring Festival: Collect Data (this will contrast great with data collect during school time), Coding
