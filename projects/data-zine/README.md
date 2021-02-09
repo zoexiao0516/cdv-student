@@ -1,4 +1,8 @@
-# Data Zine Project
+# 🐻 Data Zine Project
+
+## recording round object and its attributes
+
+#### See my work [here](https://zoexiao0516.github.io/cdv-student/projects/data-zine/index.html)
 
 #### Inspirations
 [Dear Data](https://docs.google.com/spreadsheets/d/1PTTTbewj2zsqgztBhNZKB2ipunpI7jiok2tmm_kfhXE/edit#gid=0) by Giorgia Lupi and Stefanie Posavec<br/>
