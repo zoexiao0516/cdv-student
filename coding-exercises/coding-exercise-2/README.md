@@ -13,6 +13,6 @@
 1. Bar chart animation
 
 #### I learned:
-1. [How to collect data using Google Form and covert them to JSON](https://github.com/leoneckert/critical-data-and-visualization-spring-2021/tree/main/labs/collect-data-google-form)
+1. [How to collect data using Google Forms and covert them to JSON](https://github.com/leoneckert/critical-data-and-visualization-spring-2021/tree/main/labs/collect-data-google-form)
 1. First time use the inline container `<span>` tag
 1. Use jquery library to simplify the animate() function
