@@ -1,0 +1,50 @@
+[
+    {
+        "timestamp": "2021-02-09T13:11:59.910Z",
+        "color": "#f29c2b",
+        "diameter": 2,
+        "howLongHaveIUsedIt": 1,
+        "whatIsItUsedFor": 2,
+        "note": "an orange"
+    },
+    {
+        "timestamp": "2021-02-09T13:12:55.238Z",
+        "color": "#F5F7FA",
+        "diameter": 4,
+        "howLongHaveIUsedIt": 9,
+        "whatIsItUsedFor": 3,
+        "note": "a plate"
+    },
+    {
+        "timestamp": "2021-02-09T13:13:50.516Z",
+        "color": "#FFFDC0",
+        "diameter": 5,
+        "howLongHaveIUsedIt": 8,
+        "whatIsItUsedFor": 3,
+        "note": "my basin"
+    },
+    {
+        "timestamp": "2021-02-09T13:14:39.435Z",
+        "color": "#a39e9e",
+        "diameter": 1,
+        "howLongHaveIUsedIt": 2,
+        "whatIsItUsedFor": 4,
+        "note": "a coin"
+    },
+    {
+        "timestamp": "2021-02-09T13:18:06.972Z",
+        "color": "#6b778d",
+        "diameter": 3,
+        "howLongHaveIUsedIt": 3,
+        "whatIsItUsedFor": 1,
+        "note": "a button"
+    },
+    {
+        "timestamp": "2021-02-09T13:19:03.126Z",
+        "color": "#005792",
+        "diameter": 7,
+        "howLongHaveIUsedIt": 4,
+        "whatIsItUsedFor": 4,
+        "note": "an umbrella"
+    }
+]
