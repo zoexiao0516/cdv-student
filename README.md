@@ -4,7 +4,7 @@ Hi! I am Zoe Yajie Xiao and in this repository I will develop my work for the [C
 
 ### My work
 
-Among other things, I will link to Coding Exercises and Projects:
+Among other things, I will link to Exercises and Projects:
 
 #### coding exercises
 - [coding exercise 1: foundation](coding-exercises/coding-foundation)
