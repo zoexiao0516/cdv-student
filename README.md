@@ -6,10 +6,18 @@ Hi! I am Zoe Yajie Xiao and in this repository I will develop my work for the [C
 
 Among other things, I will link to Coding Exercises and Projects:
 
+#### coding exercises
 - [coding exercise 1: foundation](coding-exercises/coding-foundation)
 - [coding exercise 2 (Form Data, Vanilla JS)](coding-exercises/coding-exercise-2)
 - [coding exercise 3 (Data-binding, JSON)](coding-exercises/coding-exercise-3)
+- [coding exercise 4 (Grouping Elements)](coding-exercises/coding-exercise-4)
 
+#### reading responses
+- [reading response 1 (Data Intro)](reading-assignments/reading1.md)
+- [reading response 2 (Data Bias)](reading-assignments/reading2.md)
+
+#### projects
+- [data zine project](projects/data-zine)
 
 ---
 #### About this file
