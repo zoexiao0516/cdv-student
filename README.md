@@ -6,9 +6,9 @@ Hi! I am Zoe Yajie Xiao and in this repository I will develop my work for the [C
 
 Among other things, I will link to Coding Exercises and Projects:
 
-- [coding foundation](coding-exercises/coding-foundation)
+- [coding exercise 1: foundation](coding-exercises/coding-foundation)
 - [coding exercise 2 (Form Data, Vanilla JS)](coding-exercises/coding-exercise-2)
-- ...
+- [coding exercise 3 (Data-binding, JSON)](coding-exercises/coding-exercise-3)
 
 
 ---
