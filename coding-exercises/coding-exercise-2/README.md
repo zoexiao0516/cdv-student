@@ -1,4 +1,4 @@
-# 💝 CDV Coding Exercise 2 (Form Data, Vanilla JS)
+# 💛 CDV Coding Exercise 2 (Form Data, Vanilla JS)
 
 ## ⭐️ Simple Visualization of Survey Results ⭐️
 
@@ -16,3 +16,5 @@
 1. [How to collect data using Google Forms and covert them to JSON](https://github.com/leoneckert/critical-data-and-visualization-spring-2021/tree/main/labs/collect-data-google-form)
 1. First time use the inline container `<span>` tag
 1. Use jquery library to simplify the animate() function
+
+#### Inspiration: [this video](https://www.youtube.com/watch?v=clo_FeBrhk0)
