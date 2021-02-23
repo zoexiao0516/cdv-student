@@ -2,6 +2,6 @@
 
 #### the first part is the lifetime of the round objects
 
-#### the second part is their for curious people to guess
+#### the second part is for curious people to guess
 
 ![](Page1.png)
