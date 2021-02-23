@@ -1,7 +1,6 @@
 # 💎 Coding Exercise 4 (Grouping Elements)
 
-## create groups for each data point and assign attributes
-## 🕐 🕑 🕒 🕓 🕔 🕕
+## create groups 🕔 for each data point and assign attributes
 
 #### See my work [here](https://zoexiao0516.github.io/cdv-student/coding-exercises/coding-exercise-4/index.html)
 
