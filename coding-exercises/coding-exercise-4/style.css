@@ -1,5 +1,19 @@
 
-body{
+body {
   width, height: 100%;
   margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  background: #313131;  /* dark */
+}
+
+h1 {
+  color: #fff7f7;
+  text-align: center;
+  font-size: 28px;
+  position: absolute;
+  top: 10px;
 }
