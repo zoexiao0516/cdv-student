@@ -88,5 +88,6 @@ viz.selectAll("circle").data(myData)  // empty selection
     .attr("cx", xLocation)  // 如果用randomNumber（）这个5个element的attr都会相同
     .attr("cy", randomNumber)
     .attr("r", 20)
-    .attr("fill", chooseColor)
+    .attr("fill", "none")
+    .attr("stroke", "black")
 ;
