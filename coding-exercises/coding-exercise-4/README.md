@@ -9,4 +9,5 @@ Shirley Wu's personal website [here](https://shirleywu.studio/)
 
 #### Difficulty
 1. Assign attributes of each data point to the data group it belongs
+1. Draw a path
 1. Rotate the SVG path around its pivot

@@ -63,7 +63,7 @@ let myData = [4, 6, 8, 2, 9];
 function randomNumber(whatIsD3Passing){
   // check what is d3 passing
   console.log(whatIsD3Passing);
-  return Math.random()*500;  // random number between 0 and 500
+  return Math.random() * 500;  // random number between 0 and 500
 }
 
 function xLocation(datapoint){

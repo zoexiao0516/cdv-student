@@ -11,8 +11,6 @@ let viz = d3.select("#viz-container")
 // myPath = ['M 0,0 L 10,-15 L -8,-40 L 0,-50 L 8,-40 L -10,-15 L 0,0'];
 myPath = ['M 50,50 L 60,35 L 42,10 L 50,0 L 58,10 L 40,35 L 50,50'];
 
-// myPath.attr("transform", "translate(50, 50)");
-
 let data = d3.json("data.json").then(gotData);
 
 var dataPointLength;
