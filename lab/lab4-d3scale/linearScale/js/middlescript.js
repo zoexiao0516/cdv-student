@@ -53,7 +53,7 @@ function gotData(incomingData) {
         return d.name;
     }
 
-    let lables = datagroups
+    let labels = datagroups
         .append("text")
         .attr("class", "name")
         .text(getName)
