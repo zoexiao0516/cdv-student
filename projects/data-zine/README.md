@@ -4,7 +4,7 @@
 
 ---
 
-#### See my work [here](https://zoexiao0516.github.io/cdv-student/projects/data-zine/index.html)
+#### See my work [here](https://zoexiao0516.github.io/cdv-student/projects/data-zine/cover.html)
 
 ---
 
