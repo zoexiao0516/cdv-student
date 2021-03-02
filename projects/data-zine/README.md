@@ -2,8 +2,6 @@
 
 ## recording round-shaped food and its attributes
 
----
-
 #### See my work [here](https://zoexiao0516.github.io/cdv-student/projects/data-zine/cover.html)
 
 ---
