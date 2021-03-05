@@ -5,7 +5,7 @@ let viz = d3.select("#container").append("svg")
     .attr("class", "viz")
     .attr("width", 1200)
     .attr("height", 800)
-    .style("background-color", "lavender")
+    .style("background-color", "#fae3d9")
     ;
 
 //Append a defs (for definition) element to your SVG

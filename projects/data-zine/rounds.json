@@ -1,79 +1,72 @@
 [
     {
         "timestamp": "2021-02-24T16:00:00.000Z",
-        "food": "orange 🍊",
+        "food": "orange",
         "fondness": 3,
         "frequency": 10,
         "diameter": 10,
         "category": "fruit",
         "cooked": 0,
-        "group": 0,
         "chinese": 0
     },
     {
         "timestamp": "2021-02-24T16:00:00.000Z",
-        "food": "uncut pizza",
+        "food": "pizza",
         "fondness": 5,
         "frequency": 1,
-        "diameter": 30,
+        "diameter": 20,
         "category": "carbs",
         "cooked": 1,
-        "group": 0,
         "chinese": 0
     },
     {
         "timestamp": "2021-02-24T16:00:00.000Z",
-        "food": "cookie 🍪",
+        "food": "cookie",
         "fondness": 2,
         "frequency": 4,
         "diameter": 8,
         "category": "sweets",
         "cooked": 1,
-        "group": 0,
         "chinese": 0
     },
     {
         "timestamp": "2021-02-24T16:00:00.000Z",
-        "food": "fried egg 🍳",
+        "food": "fried egg",
         "fondness": 4,
         "frequency": 12,
         "diameter": 12,
         "category": "protein",
         "cooked": 1,
-        "group": 0,
         "chinese": 0
     },
     {
         "timestamp": "2021-02-24T16:00:00.000Z",
-        "food": "bagel 🥯",
+        "food": "bagel",
         "fondness": 3,
         "frequency": 2,
-        "diameter": 14,
+        "diameter": 10,
         "category": "carbs",
         "cooked": 1,
-        "group": 0,
         "chinese": 0
     },
     {
         "timestamp": "2021-02-24T16:00:00.000Z",
-        "food": "sushi 🍘",
+        "food": "sushi",
         "fondness": 4,
         "frequency": 1,
         "diameter": 4,
         "category": "carbs",
         "cooked": 1,
-        "group": 1,
         "chinese": 0
     },
     {
         "timestamp": "2021-02-24T16:00:00.000Z",
-        "food": "apple 🍎",
+        "food": "apple",
         "fondness": 2,
         "frequency": 3,
         "diameter": 8,
         "category": "fruit",
         "cooked": 0,
-        "group": 0,
         "chinese": 0
     },
     {
@@ -84,95 +77,86 @@
         "diameter": 8,
         "category": "carbs",
         "cooked": 1,
-        "group": 0,
         "chinese": 1
     },
     {
         "timestamp": "2021-02-24T16:00:00.000Z",
-        "food": "blueberries 🫐",
+        "food": "blueberries",
         "fondness": 4,
         "frequency": 1,
         "diameter": 2,
         "category": "fruit",
         "cooked": 0,
-        "group": 1,
         "chinese": 0
     },
     {
         "timestamp": "2021-02-24T16:00:00.000Z",
-        "food": "tomato 🍅",
+        "food": "tomato",
         "fondness": 3,
         "frequency": 2,
         "diameter": 7,
         "category": "veggie",
         "cooked": 1,
-        "group": 0,
         "chinese": 0
     },
     {
         "timestamp": "2021-02-24T16:00:00.000Z",
-        "food": "onion 🧅",
+        "food": "onion",
         "fondness": 3,
         "frequency": 2,
         "diameter": 9,
         "category": "veggie",
         "cooked": 1,
-        "group": 0,
         "chinese": 0
     },
     {
         "timestamp": "2021-02-24T16:00:00.000Z",
-        "food": "pudding 🍮",
+        "food": "pudding",
         "fondness": 3,
         "frequency": 2,
         "diameter": 7,
         "category": "sweets",
         "cooked": 1,
-        "group": 0,
         "chinese": 0
     },
     {
         "timestamp": "2021-02-24T16:00:00.000Z",
-        "food": "ice cream ball 🍨",
+        "food": "ice cream",
         "fondness": 4,
         "frequency": 1,
         "diameter": 6,
         "category": "sweets",
         "cooked": 1,
-        "group": 0,
         "chinese": 0
     },
     {
         "timestamp": "2021-02-24T16:00:00.000Z",
-        "food": "chinese pancake 🥞",
+        "food": "pancake",
         "fondness": 5,
         "frequency": 1,
         "diameter": 12,
         "category": "carbs",
         "cooked": 1,
-        "group": 0,
         "chinese": 1
     },
     {
         "timestamp": "2021-02-24T16:00:00.000Z",
-        "food": "fish ball in hotpot",
+        "food": "fish ball",
         "fondness": 5,
         "frequency": 1,
         "diameter": 3,
         "category": "protein",
         "cooked": 1,
-        "group": 1,
         "chinese": 1
     },
     {
         "timestamp": "2021-02-24T16:00:00.000Z",
-        "food": "coconut 🥥",
+        "food": "coconut",
         "fondness": 3,
         "frequency": 1,
-        "diameter": 15,
+        "diameter": 10,
         "category": "fruit",
         "cooked": 0,
-        "group": 0,
         "chinese": 0
     },
     {
@@ -183,40 +167,36 @@
         "diameter": 2,
         "category": "carbs",
         "cooked": 1,
-        "group": 0,
         "chinese": 1
     },
     {
         "timestamp": "2021-02-24T16:00:00.000Z",
-        "food": "cherries 🍒",
+        "food": "cherries",
         "fondness": 4,
         "frequency": 1,
         "diameter": 2,
         "category": "fruit",
         "cooked": 0,
-        "group": 1,
         "chinese": 0
     },
     {
         "timestamp": "2021-02-24T16:00:00.000Z",
-        "food": "chinese meat pie",
+        "food": "meat pie",
         "fondness": 5,
         "frequency": 2,
         "diameter": 10,
         "category": "carbs",
         "cooked": 1,
-        "group": 0,
         "chinese": 1
     },
     {
         "timestamp": "2021-02-27T16:00:00.000Z",
-        "food": "taco 🌮",
+        "food": "taco",
         "fondness": 3,
         "frequency": 1,
-        "diameter": 16,
+        "diameter": 10,
         "category": "carbs",
         "cooked": 1,
-        "group": 0,
         "chinese": 0
     },
     {
@@ -227,18 +207,16 @@
         "diameter": 8,
         "category": "sweets",
         "cooked": 1,
-        "group": 0,
         "chinese": 0
     },
     {
         "timestamp": "2021-02-27T16:00:00.000Z",
-        "food": "macadamia ",
+        "food": "macadamia",
         "fondness": 3,
         "frequency": 1,
         "diameter": 2,
         "category": "nuts",
         "cooked": 0,
-        "group": 0,
         "chinese": 0
     },
     {
@@ -249,7 +227,6 @@
         "diameter": 2,
         "category": "sweets",
         "cooked": 1,
-        "group": 0,
         "chinese": 0
     },
     {
@@ -260,7 +237,56 @@
         "diameter": 3,
         "category": "sweets",
         "cooked": 1,
-        "group": 1,
+        "chinese": 0
+    },
+    {
+        "timestamp": "2021-02-27T16:00:00.000Z",
+        "food": "pistachio",
+        "fondness": 5,
+        "frequency": 5,
+        "diameter": 1,
+        "category": "nuts",
+        "cooked": 0,
+        "chinese": 1
+    },
+    {
+        "timestamp": "2021-03-03T16:00:00.000Z",
+        "food": "tangyuan",
+        "fondness": 4,
+        "frequency": 1,
+        "diameter": 3,
+        "category": "carbs",
+        "cooked": 1,
+        "chinese": 1
+    },
+    {
+        "timestamp": "2021-03-03T16:00:00.000Z",
+        "food": "pumpkin",
+        "fondness": 3,
+        "frequency": 3,
+        "diameter": 15,
+        "category": "veggie",
+        "cooked": 1,
+        "chinese": 0
+    },
+    {
+        "timestamp": "2021-03-03T16:00:00.000Z",
+        "food": "plum",
+        "fondness": 5,
+        "frequency": 6,
+        "diameter": 6,
+        "category": "fruit",
+        "cooked": 0,
+        "chinese": 0
+    },
+    {
+        "timestamp": "2021-03-03T16:00:00.000Z",
+        "food": "egg tart",
+        "fondness": 5,
+        "frequency": 1,
+        "diameter": 6,
+        "category": "carbs",
+        "cooked": 1,
         "chinese": 0
     }
 ]

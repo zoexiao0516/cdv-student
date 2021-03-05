@@ -4,7 +4,7 @@ console.log("script for cover page loaded!")
 var svg = d3.select("#container").append("svg")
     .attr("width", 1200)
     .attr("height", 800)
-    .style("background-color", "lavender");
+    .style("background-color", "#fae3d9");
 
 //Create an SVG arc starting at location [0,300], ending at [800,300] with a radius of 400 (circle)			
 var path = svg.append("path")
