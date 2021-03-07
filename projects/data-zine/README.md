@@ -38,6 +38,7 @@
 
 - **Why did you choose to visualize the data in this way?** <br/>
   First of all, I think the emphasis of this visualization is the clustering in accordance with their category. In order to do that, I wanted to place each data point based on their category, so I started to experiment with D3's force simulation methods with groups. <br/> 
+  
   Also, for each data point, I think it is instinctive to have food, especially round-shaped food represented by circles. I was thinking of pizza when I decided on this. Because it will be very straightforward to see their size in contrast with each other. All the food in the same category would stick together as one cluster and share the same color. <br/>
 
   The introduction of boolean attributes and using a special sign to represent them is one of the many inspirations drawn from *Dear Data*. So in my project, I use three special icons to indicate whether this particular food has this feature or not. <br/>
@@ -49,7 +50,7 @@
   I was surprised to find out the "carbs" category has the dominating number of round-shaped food.
 
 - **Did you make crucial compromises? Which ones?** <br/>
-  The biggest compromise I made was at the data-collecting process where I found myself have difficulty drawing the boundaries for my dataset. So I was originally recording round objects, not just food, that I "use" everyday, but after discussion with Leon, I realize there is a limitless amount of items in this list and that would be a bad start for visualization. <br/>
+  The biggest compromise I made was at the data-collecting process where I found myself having difficulty drawing the boundaries for my dataset. So I was originally recording round objects, not just food, that I "use" everyday, but after discussion with Leon, I realize there is a limitless amount of items in this list and that would be a bad start for visualization. <br/>
 
   I initially left out the name for each food, and want to make it into a guessing game. But I found this game way too hard with the given information that I couldn't even guess myself. <br/>
   
