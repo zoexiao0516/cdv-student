@@ -198,7 +198,7 @@ function gotData(incomingData) {
 
     groups.append("text")
         .attr('x', -30)
-        .attr('y', -10)
+        .attr('y', -12)
         .style("font-family", "'Krona One', sans-serif")
         .style("font-size", "14px")
         .style("fill", "#6b778d")
