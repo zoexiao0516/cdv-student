@@ -1,3 +1,5 @@
+# 🤹 Inspiring Data Viz and Data Story
+
 [The historical cost of light](https://pudding.cool/2020/12/lighting-cost/)
 
 This article is an amazing visualziation of how expensive artificial light was. By scrolling down this webpage, we are "working" to earn the light. There is a clear contrast between nowadays and hundreds of years ago. When we are scrolling, we are also entertained by some brief historical facts. Keeping scrolling down the page does feel like a labor to me. 
