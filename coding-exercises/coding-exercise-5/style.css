@@ -1,0 +1,15 @@
+.yaxis path {
+    stroke: white;
+}
+
+.yaxis line{
+    stroke: lightslategray;
+}
+
+.xaxis path {
+    stroke: white;
+}
+
+.xaxis line{
+    stroke: lightslategray;
+}
