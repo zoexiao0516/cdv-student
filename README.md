@@ -11,6 +11,7 @@ Among other things, I will link to Exercises and Projects:
 - [coding exercise 2 (Form Data, Vanilla JS)](coding-exercises/coding-exercise-2)
 - [coding exercise 3 (Data-binding, JSON)](coding-exercises/coding-exercise-3)
 - [coding exercise 4 (Grouping Elements)](coding-exercises/coding-exercise-4)
+- [coding exercise 5 (Roesling's Graph)](coding-exercises/coding-exercise-5)
 
 #### reading responses
 - [reading response 1 (Data Intro)](reading-assignments/reading1.md)
