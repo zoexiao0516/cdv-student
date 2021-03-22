@@ -20,8 +20,8 @@ Among other things, I will link to Exercises and Projects:
 - [reading response 4 (Prediction & Uncertainty)](reading-assignments/reading4.md)
 
 #### projects
-- [data zine project](projects/data-zine)
-
+- [data zine](projects/data-zine)
+- [data story](projects/data-story)
 ---
 #### About this file
 This README.md file is written in Markdown syntax - here is a quick [intro](https://guides.github.com/features/mastering-markdown/).
