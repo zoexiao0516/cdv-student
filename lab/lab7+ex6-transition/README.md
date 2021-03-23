@@ -4,6 +4,7 @@
 
 ✏️ The last function is for highlighting the bar with the maximum value. It will come in handy when there is a huge number of bars~
 
+😄 I made sure that every emoji I use is compatible in Chrome~
 
 ### 🤦🏻‍♀️ Difficulty 
 - Fading out the bars that will be removed 
