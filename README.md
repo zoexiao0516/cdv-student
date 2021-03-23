@@ -12,6 +12,7 @@ Among other things, I will link to Exercises and Projects:
 - [coding exercise 3 (Data-binding, JSON)](coding-exercises/coding-exercise-3)
 - [coding exercise 4 (Grouping Elements)](coding-exercises/coding-exercise-4)
 - [coding exercise 5 (Roesling's Graph)](coding-exercises/coding-exercise-5)
+- [coding exercise 6 (Mastering Transitions)](lab/lab7+ex6-transition)
 
 #### reading responses
 - [reading response 1 (Data Intro)](reading-assignments/reading1.md)
