@@ -1,6 +1,9 @@
 # 🌧 Coding Exercise 6 (Mastering Transition)
 
-### 🔗 See my work [here](https://zoexiao0516.github.io/cdv-student/lab/lab7+ex6-transition/index.html).
+🔗 See my work [here](https://zoexiao0516.github.io/cdv-student/lab/lab7+ex6-transition/index.html).
+
+✏️ The last function is for highlighting the bar with the maximum value. It will come in handy when there is a huge number of bars~
+
 
 ### 🤦🏻‍♀️ Difficulty 
 - Fading out the bars that will be removed 
