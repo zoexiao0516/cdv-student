@@ -208,6 +208,7 @@ function add() {
         // .delay(200)
         .call(xAxis).selectAll("text").attr("font-size", 18);
 
+    xAxisGroup.selectAll("line").remove();
 
     // what we essentially do now is the following:
     // each element on the page is associated with one datapoint
@@ -329,7 +330,7 @@ document.getElementById("buttonA").addEventListener("click", add);
 function remove() {
     removeDatapoints(1);
 
-    elementsForPage = graphGroup.selectAll(".datapoint").data(data);
+    elementsForPage = graphGroup.selectAll(".datapoint").data(data, function (d) { return d.key });
     console.log("elements for page removed by 1", elementsForPage);
 
     exitingElements = elementsForPage.exit();
@@ -337,7 +338,7 @@ function remove() {
         .attr("fill", "#8ac6d1")
         .transition()
         // .delay(200)
-        .duration(200)
+        .duration(50)
         .attr("y", 0)
         .attr("height", 0)
         ;
@@ -354,6 +355,7 @@ function remove() {
     xAxisGroup.transition()
         .delay(100)
         .call(xAxis).selectAll("text").attr("font-size", 18);
+    xAxisGroup.selectAll("line").remove();
 
     yMax = d3.max(data, function (d) { return d.value });
     yDomain = [0, yMax + yMax * 0.1];
@@ -362,7 +364,7 @@ function remove() {
 
     elementsForPage.transition()
         // .delay(1000)
-        .duration(200).attr("transform", function (d, i) {
+        .duration(100).attr("transform", function (d, i) {
             return "translate(" + xScale(d.key) + "," + (h - padding) + ")"
         });
 
@@ -395,16 +397,16 @@ function updateData() {
 
     xAxis = d3.axisBottom(xScale);
     xAxis.tickFormat(d => { return data.filter(dd => dd.key == d)[0].name; });
-    xAxisGroup.transition().delay(200).call(xAxis).selectAll("text").attr("font-size", 18);
+    xAxisGroup.transition()
+        // .delay(200)
+        .call(xAxis).selectAll("text").attr("font-size", 18);
+    xAxisGroup.selectAll("line").remove();
+    xAxisGroup.selectAll("line").remove();
 
     yMax = d3.max(data, function (d) { return d.value });
     yDomain = [0, yMax + yMax * 0.1];
     yScale.domain(yDomain);
 
-    xAxisGroup.transition()
-        // .delay(200)
-        .call(xAxis).selectAll("text").attr("font-size", 18);
-    xAxisGroup.selectAll("line").remove();
 
     // update the bars
     elementsForPage.transition()
