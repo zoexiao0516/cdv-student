@@ -13,6 +13,7 @@ Among other things, I will link to Exercises and Projects:
 - [coding exercise 4 (Grouping Elements)](coding-exercises/coding-exercise-4)
 - [coding exercise 5 (Roesling's Graph)](coding-exercises/coding-exercise-5)
 - [coding exercise 6 (Mastering Transitions)](lab/lab7+ex6-transition)
+- [coding exercise 7 (Line Generators)](lab/lab8-line-exercise/line-2)
 
 #### reading responses
 - [reading response 1 (Data Intro)](reading-assignments/reading1.md)
