@@ -89,6 +89,8 @@ function gotData(incomingData) {
       .append("path")
       .attr("class", "line")
       .attr("d", lineMaker)
+      .transition()
+      .duration(500)
       .attr("fill", "none")
       .attr("stroke-width", 5)
       .attr("stroke", function (d, i) {
@@ -102,10 +104,10 @@ function gotData(incomingData) {
 
     // EXITING ELEMENTS
     let exitingElements = elementsForPage.exit();
-    exitingElements.transition().remove();
+    exitingElements.transition().duration(500).remove();
 
     // UPDATING ELEMENTS
-    elementsForPage.transition().attr("d", lineMaker)
+    elementsForPage.transition().duration(500).attr("d", lineMaker)
       .attr("stroke", function (d, i) {
         if (d[0].country == "United States") {
           return "blue"
