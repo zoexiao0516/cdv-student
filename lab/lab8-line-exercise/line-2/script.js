@@ -60,21 +60,21 @@ function gotData(incomingData) {
     })
     ;
 
-  graphGroup.selectAll(".line").data(incomingData).enter()
-    .append("path")
-    .attr("class", "line")
-    .attr("d", lineMaker)
-    .attr("fill", "none")
-    // .attr("stroke", "black")
-    .attr("stroke-width", 5)
-    .attr("stroke", function (d, i) {
-      if (d[0].country == "United States") {
-        return "blue"
-      } else {
-        return "red"
-      }
-    })
-    ;
+  // graphGroup.selectAll(".line").data(incomingData).enter()
+  //   .append("path")
+  //   .attr("class", "line")
+  //   .attr("d", lineMaker)
+  //   .attr("fill", "none")
+  //   // .attr("stroke", "black")
+  //   .attr("stroke-width", 5)
+  //   .attr("stroke", function (d, i) {
+  //     if (d[0].country == "United States") {
+  //       return "blue"
+  //     } else {
+  //       return "red"
+  //     }
+  //   })
+  //   ;
 
 
   function selectCountry(filteredData) {
