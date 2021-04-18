@@ -20,6 +20,7 @@ Among other things, I will link to Exercises and Projects:
 - [reading response 2 (Data Bias)](reading-assignments/reading2.md)
 - [reading response 3 (Surveillance Capitalism)](reading-assignments/reading3.md)
 - [reading response 4 (Prediction & Uncertainty)](reading-assignments/reading4.md)
+- [reading response 5 (Ethics)](reading-assignments/reading5/reading5.md)
 
 #### projects
 - [data zine](projects/data-zine)
