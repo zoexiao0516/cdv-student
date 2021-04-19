@@ -1,4 +1,26 @@
 # 🍱 Datasets Pickle
+
+### [Kaggle Machine Learning & Data Science Survey (2020)](https://www.kaggle.com/neomatrix369/kaggle-machine-learning-data-science-survey-ext)
+
+The 2020 Kaggle DS & ML Survey received 20,036 usable responses from participants in 171 different countries and territories. If a country or territory received less than 50 respondents, we grouped them into a group named “Other” for anonymity. An invitation to participate in the survey was sent to the entire Kaggle community (anyone
+opted-in to the Kaggle Email.
+
+
+### Main Data:
+
+kaggle_survey_2020_responses.csv: 39+ questions and 20,036 responses
+
+- Responses to multiple choice questions (only a single choice can be selected) were recorded in individual columns. Responses to multiple selection questions (multiple choices can be selected) were split into multiple columns (with one column per answer choice).
+
+### Supplementary Data:
+kaggle_survey_2020_answer_choices.pdf: list of answer choices for every question
+
+- With footnotes describing which questions were asked to which respondents.
+
+kaggle_survey_2020_methodology.pdf: a description of how the survey was conducted
+
+---
+
 *Sorry if I wrote too much. I got a bit carried away finding these datasets although it's already midnight...
 
 ### [Mental Health in the Tech Industry](https://www.kaggle.com/anth7310/mental-health-in-the-tech-industry)

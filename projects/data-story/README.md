@@ -1,4 +1,15 @@
-# 🤹 Inspiring Data Viz and Data Story
+# A visual introduction to Data Science
+
+## 🧐 Contextual Report
+🔗 
+
+## 🤹 Inspiritions
+
+[A short demo of a scrolling data story using the Kaggle Titanic Data source](http://www.bmdata.co.uk/titanic/)
+
+[A visual introduction to machine learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/)
+
+---
 
 [The historical cost of light](https://pudding.cool/2020/12/lighting-cost/)
 
