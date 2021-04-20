@@ -16,12 +16,12 @@ var path = d3.geo.path()
 
 var g = svg.append("g");
 
-d3.json("data/world-50m.json", function (error, topology) {
+d3.json("data/world-50m.json", function (error, world) {
     g.selectAll("path")
-            .data(topojson.object(topology, topology.objects.countries).geometries)
+            .data(topojson.feature(world, world.objects.countries).features)
             .enter()
             .append("path")
-            .attr("d", path);
+            .attr("d", path);       
 
     d3.csv("data/extinct_languages.csv", function (error, data) {
 
