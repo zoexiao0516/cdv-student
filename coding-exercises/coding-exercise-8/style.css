@@ -1,0 +1,46 @@
+body{
+  text-align: center;
+  margin-top: 30px;
+  
+}
+
+.checkbox{
+  position: relative;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+svg {
+  width: 1000px;
+  height: 600px;
+  background-color: skyblue;
+  border: 3px solid steelblue;
+}
+
+path {
+  stroke:white;
+  stroke-width: 0.5px;
+  fill:#EBEBE0;
+}
+
+#float-button-group {
+  position:fixed;
+  left:10;
+  opacity:0.5;
+}
+
+#float-button-group:hover {
+  opacity:1;
+}
+
+#map-zoomer {
+  position:absolute;
+  writing-mode: bt-lr;
+  -webkit-appearance: slider-vertical;
+  width: 8px;
+  height: 100px;
+  padding: 0 5px;
+  top:110px;
+  left:15px;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title> Endangered Languages World Map </title>
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- include the js library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="http://d3js.org/topojson.v0.min.js"></script>
+    
+  </head>
+  <body>
+
+    <h1> Language Death is a global issue. </h1>
+    
+    <p>Welcome! This is a responsive <strong>D3 World Map</strong> with zoom and pan limits where I map the <a href="https://www.kaggle.com/the-guardian/extinct-languages">extinct and endangered languages</a> all around the world. 
+    <!-- <br> Hover to see the name of the language.   -->
+    </p>
+
+    <div>
+      <input type="checkbox" class="checkbox" value="vul" checked ><label>Vulnerable</label>
+      <input type="checkbox" class="checkbox" value="end" checked ><label>Endangered</label>
+      <input type="checkbox" class="checkbox" value="ext" checked ><label>Extinct</label>
+    </div>
+
+    <div id="map">
+
+      <div class="btn-group-vertical" role="group" aria-label="..." id="float-button-group">
+          <button type="button" class="btn btn-default" id="zoom-in"><span class="glyphicon glyphicon-zoom-in" aria-hidden="true"></span></button>
+          <button type="button" class="btn btn-default" id="zoom-out"><span class="glyphicon glyphicon-zoom-out" aria-hidden="true"></span></button>
+          <button type="button" class="btn btn-default" id="reset"><span class="glyphicon glyphicon-screenshot" aria-hidden="true"></span></button>
+
+          <input type="range" value="1" min="1" max="8" orient="vertical" id="map-zoomer"/>
+      </div>
+  
+    </div>
+
+    <!-- our main script: -->
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
