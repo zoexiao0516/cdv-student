@@ -1,0 +1,18 @@
+body{
+  text-align: center;
+  margin-top:30px;
+}
+
+/* the whole data is hoverable, but only change the attribute of the circle */
+/* .datagroup:hover circle{  
+  opacity: 1;
+  fill: navy;
+  transform: scale(2);
+  transition: transform 1s;
+} */
+
+.text-element{
+  /* text-anchor: middle; */
+  font-family: sans-serif;
+  fill: orange;
+}

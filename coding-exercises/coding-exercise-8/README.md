@@ -20,6 +20,8 @@ STEPS I use to finish this exercise:
 
 1. Divide the datapoints into three groups: Vulnerable (most children speak the language, but it may be restricted to certain domains), Endangered, Extinct (no speakers left). I use the chechbox to hide and show each group. If none checked, there is a clean map for you.
 
+1. When including js libraries, notice the source starts with https. 
+
 REFERENCES:
 1. [Bubblemap template for d3.js](https://www.d3-graph-gallery.com/graph/bubblemap_template.html)
 1. [Rolling pan and zoom with Mercator projection](http://bl.ocks.org/patricksurry/6621971)
