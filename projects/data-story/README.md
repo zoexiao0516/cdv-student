@@ -4,8 +4,7 @@
 🔗 [Report](https://docs.google.com/document/d/1h96KXEldADek-lqPRFLso4kd5AKw0UYde_EfX4Lo7Jk/edit?usp=sharing) and [Presentation Slides](https://drive.google.com/file/d/1V-25X_P6xaauIrY9LGy_1i6wDOU_6Rdl/view?usp=sharing)
 
 ## 📐 Paper Prototype
-![](paper-prototype/Page1.png)
-![](paper-prototype/Page2.png)
+Click [here](paper-prototype) to check out.
 
 ## 🤹 Inspiritions
 
