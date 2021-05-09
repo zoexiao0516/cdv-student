@@ -1,4 +1,4 @@
-# things i wish i knew when i study data science
+# things i wish i knew before studying data science
 ## a visual introduction to data science
 
 ## 🔗 See my progress [here](https://zoexiao0516.github.io/cdv-student/projects/data-story/index.html)
