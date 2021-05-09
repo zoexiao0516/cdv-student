@@ -1,4 +1,6 @@
-# A visual introduction to Data Science
+# things i wish i knew when i study data science
+## a visual introduction to data science
+
 ## 🔗
 See my progress [here](https://zoexiao0516.github.io/cdv-student/projects/data-story/index.html)
 
@@ -15,6 +17,7 @@ Click [here](paper-prototype) to check out.
 [A visual introduction to machine learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/)
 
 ---
+## 🗃 Archive
 
 [The historical cost of light](https://pudding.cool/2020/12/lighting-cost/)
 

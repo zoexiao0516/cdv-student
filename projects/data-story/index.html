@@ -1,103 +1,116 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title> Scrolling </title>
-
-    <!-- stylesheets -->
-    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"/>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src = 'https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.6/d3-legend.min.js'></script>
 
-    <!-- include the d3 library -->
-    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <title>data sicence story</title>
+</head>
 
-    
-  </head>
-  <body>
 
-    <div class="container">
-      <div id='graphic'>
-        <div id='sections'>
+<body>
+    <div id="tooltip"></div>
+    <div id="graphic">
+        <div id="sections">
+            <section class="step">
+                <div class="title"></div>
+                <br><br>
+                <h1>things i wish i know before studying data science</h1>
+                <p>Hi, I'm Zoe. A college student trying very hard to get a data science degree.</p>
+                
+                <p>Ever since a Harvard Business Review suggested that 'data scientist' is the 'sexiest job of the 21st Century', many people (including myself) want to break into the data science field. But as a student, I wish I could know more about what a career path in DS would look like and what are the exciting jobs out there. </p>
 
-          <section class="step">
-            <div class="title">Things I wish I know before becoming a data scientist</div>
-             
-            A scrolling data story using the <a href="https://www.kaggle.com/c/kaggle-survey-2020/data">2020 Kaggle Data Science & Machine Learning Survey</a> -<br>
-            SCROLL TO START<br>
-          </section>
+                <p>So let's listen to the voices of data professionals from Kaggle! This data visualization of <a href="https://www.kaggle.com/c/kaggle-survey-2020/data">2020 Kaggle Data Science & Machine Learning Survey</a> will take you on a journey through all of the different job titles in the DS fields, and compare salary, how many women are in this field, day-to-day roles, and other factors. </p>
+                    
+                <p><strong>Scroll to start</strong> (If the visualisation doesn't fit your screen, try zooming out)</p>
 
-          <section class="step">
-            <div class="title">PART ONE - GENDER STORY</div>
-            <br>
-            <div class="title">Men still dominate the data science world</div>
-            We see more gender disparities in the STEM fields. This should not come as a surprise, but the data science world, like the rest of the tech world, has a heavy gender imbalance, as 79% identify as men, 19% identify as women, and 2% identify as others.<br><br>
-            <div class="note">* There are 20,036 respondents to the survey.</div>
-            <div class="note">* Others include "Prefer not to say", "Prefer to self-describe", "Nonbinary"</div>
-          </section>
+                <p>In this visualization, I choose a sample of 200 data professionals from the dataset, with job titles ranging from engineer, analyst to product manager (<strong>hover on the small dots to see more details</strong>) </p>
+                
+            </section>
+            <section class="step">
+                <p>
+                    First let's see what are the most popular jobs in data science.  
+                </p>
 
-          <section class="step">
-            <div class="title">The gender gap in all earnings</div>
-           In each range of salary, men are payed higher. But this is an overall comparison of payment disparity. Why is there such big difference among different gender types?
-          </section>
+                <p>
+                    About 1/4 of data professionals write down their job title as data scientist, followed by software engineer and data analyst.
+                </p>
+                <p>
+                    *A side note: because data science is a fairly field, the definitions of different job titles are quite loose or fluid. For instance, many data scientists are actually software engineers as well. 
+                </p>
 
-          <section class="step">
-            Will education, job title, and experience change the situation? In the following interactive graph, we will focus on breaking down salaries for different genders by various factors, such as the ones mentioned previously, in the quest of interpreting the gender gap.
-          </section>
+                <svg id = 'legend' width = '400px' height = '500px'></svg>
+                <p></p>
+            </section>
+            
+            <section class = 'step'>
+                <svg id = 'legend2' width = '400px' height = '550px'></svg><br><br>
+                Now let's see the most exciting number - salary! We can see the individual salary as well as the median salary for each job title on the labels. Hover on the label if you forget the name!
+            </section>
+            
+            <section class="step">
+                <br><br>
+                <h2>What are the activities that make up an important part of these roles?</h2>
+                <p>Select to see how many data professionals are
+                    <select>
+                        <option disabled hidden selected>analyzing data for business decisions</option>
+                        <option value="role1">analyzing data for business decisions</option>
+                        <option value="role2">building the data infrastructure</option>
+                        <option value="role3">building ML prototypes in new areas</option>
+                        <option value="role4">building ML services for products/workflows</option>
+                        <option value="role5">improving existing ML models</option>
+                        <option value="role6">doing research to advance ML</option>
+                    </select>
+                .</p>
 
-          <section class="step">
-            <div class="title">Will it change?</div>
-            We can see the gap minizes/differs with different balues on X-axis.
-          </section>
-
-          <section class="step">
-            <div class="title">PART TWO - CAREER STORY</div>
-            <br>
-            <div class="title">Data roles in different fields</div>
-            The length of bars denotes the precentage of professionals in the field that perform the specified.
-          </section>
-
-          <section class="step">
-            <div class="title">What programming languages should I use?</div>
-            Python of course<br><br>And...?
-          </section>
-
-          <section class="step">
-            <div class="title">What machine learning methods should I use?</div>
-            The top 3 popular methods are...
-          </section>
-
-          <section class="step">
-            <div class="title">What data visualization should I use? </div>
-            Matplotlib, d3, seaborn...
-          </section>
-
-          <section class="step">
-            <div class="title">What BI tools should I use?</div>
-            The most popular ones are...
-          </section>
-
-          <section class="step">
-            <div class="title">How much coding experience do I need?</div>
-            Intead of just showing the average coding experience of professionals in each field, it might be more suitable to see a heatmap of their coding experience against their age, so that it also accounts for the experience they gained during the course of their career. This shows how experienced individuals are at particular age groups in the field.
+                <p>
+                    Data scientists have a vareity of data roles. To become a data scientist, you have to be versatile: you use a bunch of tools in computer science and programming, math statistics as well as general scientific insights and methods in order to extract insights from data and then using those insights to drive impact in both business and products. 
+                <br><br>
+                    If you're a data lover and would like to use data to solve problems, you're likely to fit into any positions.
+                    
+                </p>
+                 
+            </section>
+            <section class="step">
+                <h2>Gender disparities in Data Science</h2>
+                Less than 1/5 of data professionals are female and nonbinary. Yes, data science, like anywhere else in STEM, is still a male dominated world. 
+                <br><br>
+                However, during my earlier explorative data analysis on this dataset, I found out that the women ratio in data science students are a lot higher. We should really hold high hopes for the future of gender equality in DS!
+            </section>
+            <section class="step">
+                <h2>Will education solve the gender gap?</h2>
+                So we've seen the salary and women ratio separately before. But will education help women reach higher goals?  
+                <br><br>
+                It seems that women tend to opt for longer education periods, having a bigger representation in classes such as Master's degree and Doctoral degree. And we see there are women who are paid almost as high as men when they invsest in higher education.
+            </section>
+            <section class="step">
+                <h1>Thank you for reading</h1>
+                <p>
+                    Hopefully, this has helped you in getting to know data science career path better. If you want to dig deeper into data science industry, I recommend you check out <a href = 'https://www.anaconda.com/state-of-data-science-2020'>Anaconda's State of Data Science Report 2020</a> to see more in-depth analysis.
+                    <br><br>
+                    Special thanks to Jim Vallandingham for his article on <a href = 'https://vallandingham.me/scroller.html'>creating scrolling visualisations using D3.js</a>. 
+                    <br><br>
+                    *Disclaimer: Keep in mind while going through this visualization that over 20,000 kagglers responded to this survey, but only half of them are data professionals. Despite it still looking like a big number, no "certain" conclusion can be inferred from this data.  
+                    <br><br>
+                    All of the code associated with this project can be found on my <a href = 'https://github.com/zoexiao0516/cdv-student/tree/main/projects/data-story'>Github</a>.
+                </p>
+                <span></span><span></span><span></span>                
+            </section>
            
-          </section>
 
         </div>
+        <div id="vis">
 
-        <div id='vis'>
         </div>
-
-        <div id="extra-space">
-        </div>
-
-      </div>
     </div>
+
     
 
-    <!-- our scripts: -->
-    <script type="text/javascript" src="js/scroller.js"></script>
-    <script type="text/javascript" src="js/sections.js"></script>
-  </body>
+    
+    <script src = 'scroller.js'></script>
+    <script src = 'sections.js'></script>
+
+</body>
 </html>
