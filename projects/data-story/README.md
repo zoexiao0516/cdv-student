@@ -15,7 +15,7 @@ Click [here](paper-prototype) to check out.
 
 [A visual introduction to machine learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/)
 
----
+
 ## 🗃 Archive
 
 [The historical cost of light](https://pudding.cool/2020/12/lighting-cost/)
