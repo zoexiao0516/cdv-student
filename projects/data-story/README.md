@@ -1,8 +1,7 @@
 # things i wish i knew when i study data science
 ## a visual introduction to data science
 
-## 🔗
-See my progress [here](https://zoexiao0516.github.io/cdv-student/projects/data-story/index.html)
+## 🔗 See my progress [here](https://zoexiao0516.github.io/cdv-student/projects/data-story/index.html)
 
 ## 🧐 Contextual Report
 🔗 [Report](https://docs.google.com/document/d/1h96KXEldADek-lqPRFLso4kd5AKw0UYde_EfX4Lo7Jk/edit?usp=sharing) and [Presentation Slides](https://drive.google.com/file/d/1V-25X_P6xaauIrY9LGy_1i6wDOU_6Rdl/view?usp=sharing)
