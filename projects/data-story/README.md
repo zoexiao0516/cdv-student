@@ -1,22 +1,28 @@
-# things i wish i knew before studying data science
-## a visual introduction to data science
+## things i wish i knew before studying data science
+- a visual introduction to data science
+- see the live website 🔗 [here](https://zoexiao0516.github.io/cdv-student/projects/data-story/index.html)
 
-## 🔗 See my progress [here](https://zoexiao0516.github.io/cdv-student/projects/data-story/index.html)
+### 🥸 Intro
+So you've decided to study data science and break into the DS field, let's listen to the voices of data professionals/Kagglers! This data visualization of [2020 Kaggle Data Science & Machine Learning Survey](https://www.kaggle.com/neomatrix369/kaggle-machine-learning-data-science-survey-ext) will take you on a journey through all of the different job titles in the DS fields, and compare salary, how many women are in this field, day-to-day roles, and other factors. 
 
-## 🧐 Contextual Report
+### 💁 Demo
+![](gif/1.gif)
+![](gif/2.gif)
+
+### 🧐 Contextual Report
 🔗 [Report](https://docs.google.com/document/d/1h96KXEldADek-lqPRFLso4kd5AKw0UYde_EfX4Lo7Jk/edit?usp=sharing) and [Presentation Slides](https://drive.google.com/file/d/1V-25X_P6xaauIrY9LGy_1i6wDOU_6Rdl/view?usp=sharing)
 
-## 📐 Paper Prototype
+### 📐 Paper Prototype
 Click [here](paper-prototype) to check out.
 
-## 🤹 Inspiritions
+### 🤹 Inspiritions
 
 [A short demo of a scrolling data story using the Kaggle Titanic Data source](http://www.bmdata.co.uk/titanic/)
 
 [A visual introduction to machine learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/)
 
 
-## 🗃 Archive
+### 🗃 Archive Sources
 
 [The historical cost of light](https://pudding.cool/2020/12/lighting-cost/)
 
