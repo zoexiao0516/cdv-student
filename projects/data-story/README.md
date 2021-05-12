@@ -11,13 +11,13 @@ So you've decided to study data science and break into the DS field, let's liste
 
 ### 🙇🏻‍♀️ Process
 **Why this dataset and this viz?** <br>
-I'm a college student trying very hard to get a data science degree and constanly worrying about my future and what things I can look forward to in the future workplace. So when I came across this dataset on Kaggle, I want to dive deeper into this survey results and see what I can learn from the working professionals. One, because Kaggle is the most popular online data science community, and the other I think many other people would like to see this dataset being explored in a live website. d3 makes visualizing data points easy and interesting, and there is visual impacts that couldn't be achived bu simple bar chart or statistics. 
+I'm a college student trying very hard to get a data science degree and constanly worrying about my future and what things I can look forward to in the future workplace. So when I came across this dataset on Kaggle, I want to dive deeper into this survey results and see what I can learn from the working professionals. On one hand, because Kaggle is the most popular online data science community, an on the other, I think many other people would like to see this dataset being explored in a live website. d3 makes visualizing data points easy and interesting, and there are visual impacts and storytelling power that could not be achieved by simple bar chart or statistics. 
 
 **What can we see in the viz?** <br>
-This is a scrolling based data visualization, and in the left part I put down the context for the data viz. I rearrange the data points in different graphs to show their job titles, salary levels, women ratio, roles, etc., and the transition among different graphs is smooth. And we can always see details of each data point by hovering.
+This is a scrolling based data visualization, and in the left part I put down the context for the data viz. I rearrange the data points in different graphs to show their job titles, salary levels, women ratio, roles, etc., and the transition among different graphs is smooth. Besides, we can always see details of each data point by hovering.
 
 **Compromises** <br>
-The greatest compromise I made is that I chose only a sample of 200 data points from the dataset, otherwise it will not be friendly for transitions and simulations. But I think the 200 sample does enough job for visual impacts and representing the whole dataset fairly.
+The greatest compromise I made is that I chose only a sample of 200 data points from the dataset to visualize, otherwise it will not be friendly for transitions and simulations. But I think the 200 sample does enough job for visual impacts and representing the whole dataset fairly.
 
 ### 🧐 Contextual Report
 🔗 [Report](https://docs.google.com/document/d/1h96KXEldADek-lqPRFLso4kd5AKw0UYde_EfX4Lo7Jk/edit?usp=sharing) and [Presentation Slides](https://drive.google.com/file/d/1V-25X_P6xaauIrY9LGy_1i6wDOU_6Rdl/view?usp=sharing)
